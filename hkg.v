@@ -22,7 +22,7 @@ module heterogeneous_key_gen(
         .reset(reset),
         .sigma(32'hA0000000),  // s = 10.0
         .rho(32'h1C000000),    // ? = 28.0
-        .beta(32'h2AAAAB),     // ß = 8/3
+        .beta(32'h2AAAAB),     // ÃŸ = 8/3
         .x_out(chaos_x),
         .y_out(chaos_y),
         .z_out(chaos_z)
