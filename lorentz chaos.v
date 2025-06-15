@@ -3,7 +3,7 @@ module lorenz_chaos(
     input wire reset,            // Reset signal
     input wire [31:0] sigma,     // Lorenz system parameter s
     input wire [31:0] rho,       // Lorenz system parameter ?
-    input wire [31:0] beta,      // Lorenz system parameter ß
+    input wire [31:0] beta,      // Lorenz system parameter ÃŸ
     output reg [31:0] x_out,     // Chaotic sequence x
     output reg [31:0] y_out,     // Chaotic sequence y
     output reg [31:0] z_out      // Chaotic sequence z
